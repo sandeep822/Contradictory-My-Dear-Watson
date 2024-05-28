@@ -28,6 +28,12 @@ Recurrent Neural Network (RNN) for Natural Language Inference using TensorFlow a
 
 ![image](https://github.com/sandeep822/Contradictory-My-Dear-Watson/assets/50867031/ff7ff425-6f27-482f-9455-f3e18f6b7ae8)
 
+Hyperparameter Tuning (Random Forest):
+
+![image](https://github.com/sandeep822/Contradictory-My-Dear-Watson/assets/50867031/27668af9-5031-48aa-8064-b54016c49e5a)
+
+The grid search results for Random Forest hyperparameters are visualized in the plot, where each line corresponds to a specific value of 'n_estimators,' 'max_depth,' or 'min_samples_split.' The x-axis represents the index of hyperparameter combinations, ranging from 0 to 5. For 'n_estimators,' the plot displays three lines corresponding to values of 50, 100, and 200. Similarly, 'max_depth' is represented by lines for 'None,' 10, and 20, while 'min_samples_split' has lines for 2, 5, and 10. The y-axis denotes the mean cross-validated accuracy, providing insights into the performance of each hyperparameter configuration. The visual representation allows for a quick assessment of how changes in these hyperparameters influence model accuracy, aiding in the identification of optimal settings for the Random Forest model in the context of Natural Language Inference.
+
 
 
 
